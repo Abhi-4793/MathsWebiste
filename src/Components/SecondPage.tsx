@@ -2,7 +2,7 @@ import React from "react";
 
 const SecondPage = () => {
   return (
-    <div className="flex flex-row w-[51.813rem] h-[291rem] bg-white ">
+    <div className="flex flex-row w-[90rem] h-[51.813rem] bg-white ">
       <div className="mt-[10rem] ml-[7rem] ">
         <img
           src="images/rectangle-3.png"
@@ -11,10 +11,10 @@ const SecondPage = () => {
         />
       </div>
       <div className="w-[21.6875rem] h-[33.5675rem] pl-20">
-        <h2 className="text-[#002060] mt-[10.5rem] ml-[7rem] l text-[2.2rem] text-left font-bold w-[30.125rem] tracking-wider h-[5.0625rem ">
+        <h2 className="font-[Manrope] text-[#002060] mt-[10.5rem] ml-[7rem] l text-[2.2rem] text-left font-bold w-[30.125rem] tracking-wider h-[5.0625rem ">
           Here's what you get as a MasterMaths Student :
         </h2>
-        <ul className="ml-[9rem] w-[30rem] text-left leading-10 font-semibold list-outside text-[#000000] flex flex-col ">
+        <ul className="ml-[9rem] font-[Manrope] w-[30rem] text-left leading-10 font-semibold list-outside text-[#000000] flex flex-col ">
           <li>
             90-minutes of weekly Maths Coaching (Get mentored by qualified Maths
             coaches)

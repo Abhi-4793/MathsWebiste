@@ -1,77 +1,145 @@
 import React from "react";
 
-const MainFirst = () => {
+function LastPage() {
   return (
-    <div className="flex  ">
-      <div className="w-[67.5625rem] flex-shrink-0 h-[51.813rem] max-h-screen   bg-[#002060] text-white not-italic font-bold text-[25px] leading-normal pl-[165px] pt-[42px] relative">
-        <span className="left-[165Px] absolute">MasterMaths</span>
-
-        <div className="flex w-[285px] h-[32px] flex-shrink-0 rounded-[200px] bg-[#ff660047] mt-[190px]">
-          <span className="font-[Manrope] uppercase tracking-[0.3rem] leading-[10px] text-[16px] m-auto font-normal font-700 text-[#f60]">
-            Academic year 2023
-          </span>
+    <div className=" flex-row w-full  h-[47.0625rem] bg-[#0E2D69] z-0">
+      <div className="h-[35rem]  w-[40rem] pt-[14rem] ml-[15rem] ">
+        <div className="absolute  ml-[-3rem] leading-[5rem]  mt-[10.7rem] w-[10rem] h-[16.9rem] z-10">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="34"
+            height="34"
+            viewBox="0 0 34 34"
+            fill="none"
+            className="mb-10 mt-[-0.8rem] ml-[-0.7rem]"
+          >
+            <circle
+              cx="17"
+              cy="17"
+              r="16"
+              fill="#002060"
+              stroke="#FF6600"
+              stroke-width="2"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="34"
+            height="34"
+            viewBox="0 0 34 34"
+            fill="none"
+            className="mb-11 mt-[-0.8rem] ml-[-0.7rem]"
+          >
+            <circle
+              cx="17"
+              cy="17"
+              r="16"
+              fill="#002060"
+              stroke="#FF6600"
+              stroke-width="2"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="34"
+            height="34"
+            viewBox="0 0 34 34"
+            fill="none"
+            className="mb-11 mt-[-0.8rem] ml-[-0.7rem]"
+          >
+            <circle
+              cx="17"
+              cy="17"
+              r="16"
+              fill="#002060"
+              stroke="#FF6600"
+              stroke-width="2"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="34"
+            height="34"
+            viewBox="0 0 34 34"
+            fill="none"
+            className="mb-11 mt-[-0.8rem] ml-[-0.7rem]"
+          >
+            <circle
+              cx="17"
+              cy="17"
+              r="16"
+              fill="#002060"
+              stroke="#FF6600"
+              stroke-width="2"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="34"
+            height="34"
+            viewBox="0 0 34 34"
+            fill="none"
+            className="mb-7 mt-[-0.8rem] ml-[-0.7rem]"
+          >
+            <circle
+              cx="17"
+              cy="17"
+              r="16"
+              fill="#002060"
+              stroke="#FF6600"
+              stroke-width="2"
+            />
+          </svg>
         </div>
-        <div
-          className=" flex text-white leading-[3.75rem] text-left w-[478px] h-[120px] font-normal font-[Manrope] tracking-wider text-[3.5rem] mt-[242px] absolute left-0 ml-[165px] top-5
-         "
-        >
-          Live Mathematics Coaching
+        <div className="absolute ml-[-3rem] mt-[10.7rem] w-[0.375rem] h-[16.9rem] z-1 bg-[#ff66004d] "></div>
+        <div className="absolute ml-[-3rem] mt-[10.7rem] w-[0.375rem] h-[16.9rem] z-30  ">
+          <ul className="text-[#FF6600] text-[1.125rem] leading-[4rem] mt-[-1.8rem] ">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+          </ul>
         </div>
-        <div className="text-[#9BABCB] text-left text-[1.25rem] top-8 left-0 absolute font-[Manrope] mt-[23.48rem] ml-[10.31rem] w-[20.5625rem] font-bold leading-[1.875rem]">
-          [Online or In-Class @ Woodlands / Little India / Tampines]
-        </div>
-        <button className=" font-[Manrope] absolute mt-[13.56rem]  bg-[#ff660033] rounded-[0.1875rem] w-[17.8125rem] h-[3.6875rem] left-[165px] border-2 border-orange-600  ">
-          <p className="text-[#fff] text-[1rem] font-medium leading-7 capitalize m-auto ">
-            click here to reserve seat
-          </p>
-        </button>
+        <h2 className="text-white text-[2.5rem] leading-10 mt text-left tracking-wide font-bold w-[31.5625rem] h-[5.0625rem] ">
+          What you get as a student of MasterMaths?
+        </h2>
+        <ul className="text-[#9BABCB] text-left mt-[4rem] leading-[4rem] ">
+          <li>
+            90-minutes of Weekly Mathematics{" "}
+            <span className="text-[#FF6600]">Coaching</span>{" "}
+          </li>
+          <li>
+            Lesson Recording for{" "}
+            <span className="text-[#FF6600]">Unlimited</span> Reference
+          </li>
+          <li>
+            <span className="text-[#FF6600]">Mobile Chat</span> Anytime Q&A
+          </li>
+          <li>
+            Reviews and Performance{" "}
+            <span className="text-[#FF6600]">Feedback</span>
+          </li>
+          <li>
+            <span className="text-[#FF6600]">Extra</span> Coaching and Webinars
+            for Landmark Levels(PSLE & "O" Levels)
+          </li>
+        </ul>
       </div>
 
-      <div className=" w-[22.4375rem]  flex-shrink-0 h-[51.813rem] bg-[#0E2D69] max-w-screen max-h-screen z-0">
-        <div className="mt-[2.94rem] ml-[-12.5rem] ">
-          <button className="bg-transparent text-white text-[1rem] mr-[1.87rem]">
-            PSLE Courses
-          </button>
-          <button className=" flex-shrink-0 bg-transparent text-white w-[6.375rem] h-[2.75rem] border-2 border-white ">
-            Login
-          </button>
-          <img
-            className="bg-no-repeat w-[45.9375rem] h-[27.75rem] rounded-[0.1875rem] bg-gray-400 mt-10 mr-1 z-1"
-            src="https://i.postimg.cc/4d2VtzbB/rectangle-6.png"
-            alt="Mathsclass"
-          />
-        </div>
+      <div className="w-[50rem] h-[35rem] absolute">
+        <img
+          className="w-[29.6875rem] h-[31.875rem] mt-[-22rem] ml-[55rem]"
+          src="images/rectangle-4.png"
+        />
       </div>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="18"
-        height="55"
-        viewBox="0 0 18 55"
-        fill="none"
-        className="absolute bottom-16 left-5 z-40"
-      >
-        <path
-          d="M2 1L7.65339 6.24823L2 11.5012L7.65339 16.7541L2 22.0023L7.65339 27.2553L2 32.5035L7.65339 37.7612L2 43.0094L7.65339 48.2671L2 53.52"
-          stroke="#F24E3D"
-          stroke-opacity="0.54"
-          stroke-width="2"
-          stroke-miterlimit="10"
-        />
-        <path
-          d="M10.2869 1L15.9403 6.24823L10.2869 11.5012L15.9403 16.7541L10.2869 22.0023L15.9403 27.2553L10.2869 32.5035L15.9403 37.7612L10.2869 43.0094L15.9403 48.2671L10.2869 53.52"
-          stroke="#F24E3D"
-          stroke-opacity="0.54"
-          stroke-width="2"
-          stroke-miterlimit="10"
-        />
-      </svg>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="98"
         height="205"
         viewBox="0 0 98 205"
         fill="none"
-        className="absolute bottom-0 left-[80rem] z-2"
+        className="ml-[77.7rem] mt-[-3rem]"
       >
         <path
           d="M7.02 114.94C7.02 116.88 5.45 118.45 3.51 118.45C1.57 118.45 0 116.88 0 114.94C0 113 1.57 111.43 3.51 111.43C5.45 111.43 7.02 113 7.02 114.94Z"
@@ -174,22 +242,22 @@ const MainFirst = () => {
           fill-opacity="0.41"
         />
         <path
-          d="M7.02 32.14C7.02 34.08 5.45 35.65 3.51 35.65C1.57 35.65 0 34.08 0 32.14C0 30.2 1.57 28.63 3.51 28.63C5.45 28.63 7.02 30.2 7.02 32.14Z"
+          d="M7.02 32.1399C7.02 34.0799 5.45 35.6499 3.51 35.6499C1.57 35.6499 0 34.0799 0 32.1399C0 30.1999 1.57 28.6299 3.51 28.6299C5.45 28.6299 7.02 30.1999 7.02 32.1399Z"
           fill="white"
           fill-opacity="0.41"
         />
         <path
-          d="M37.21 32.14C37.21 34.08 35.64 35.65 33.7 35.65C31.76 35.65 30.19 34.08 30.19 32.14C30.19 30.2 31.76 28.63 33.7 28.63C35.64 28.63 37.21 30.2 37.21 32.14Z"
+          d="M37.21 32.1399C37.21 34.0799 35.64 35.6499 33.7 35.6499C31.76 35.6499 30.19 34.0799 30.19 32.1399C30.19 30.1999 31.76 28.6299 33.7 28.6299C35.64 28.6299 37.21 30.1999 37.21 32.1399Z"
           fill="white"
           fill-opacity="0.41"
         />
         <path
-          d="M67.39 32.14C67.39 34.08 65.82 35.65 63.88 35.65C61.94 35.65 60.37 34.08 60.37 32.14C60.37 30.2 61.94 28.63 63.88 28.63C65.82 28.63 67.39 30.2 67.39 32.14Z"
+          d="M67.39 32.1399C67.39 34.0799 65.82 35.6499 63.88 35.6499C61.94 35.6499 60.37 34.0799 60.37 32.1399C60.37 30.1999 61.94 28.6299 63.88 28.6299C65.82 28.6299 67.39 30.1999 67.39 32.1399Z"
           fill="white"
           fill-opacity="0.41"
         />
         <path
-          d="M97.58 32.14C97.58 34.08 96.01 35.65 94.07 35.65C92.13 35.65 90.56 34.08 90.56 32.14C90.56 30.2 92.13 28.63 94.07 28.63C96.01 28.63 97.58 30.2 97.58 32.14Z"
+          d="M97.58 32.1399C97.58 34.0799 96.01 35.6499 94.07 35.6499C92.13 35.6499 90.56 34.0799 90.56 32.1399C90.56 30.1999 92.13 28.6299 94.07 28.6299C96.01 28.6299 97.58 30.1999 97.58 32.1399Z"
           fill="white"
           fill-opacity="0.41"
         />
@@ -214,45 +282,51 @@ const MainFirst = () => {
           fill-opacity="0.41"
         />
         <path
-          d="M7.02 89.39C7.02 91.33 5.45 92.9 3.51 92.9C1.57 92.9 0 91.33 0 89.39C0 87.45 1.57 85.88 3.51 85.88C5.45 85.88 7.02 87.45 7.02 89.39Z"
+          d="M7.02 89.3899C7.02 91.3299 5.45 92.8999 3.51 92.8999C1.57 92.8999 0 91.3299 0 89.3899C0 87.4499 1.57 85.8799 3.51 85.8799C5.45 85.8799 7.02 87.4499 7.02 89.3899Z"
           fill="white"
           fill-opacity="0.41"
         />
         <path
-          d="M37.21 89.39C37.21 91.33 35.64 92.9 33.7 92.9C31.76 92.9 30.19 91.33 30.19 89.39C30.19 87.45 31.76 85.88 33.7 85.88C35.64 85.88 37.21 87.45 37.21 89.39Z"
+          d="M37.21 89.3899C37.21 91.3299 35.64 92.8999 33.7 92.8999C31.76 92.8999 30.19 91.3299 30.19 89.3899C30.19 87.4499 31.76 85.8799 33.7 85.8799C35.64 85.8799 37.21 87.4499 37.21 89.3899Z"
           fill="white"
           fill-opacity="0.41"
         />
         <path
-          d="M67.39 89.39C67.39 91.33 65.82 92.9 63.88 92.9C61.94 92.9 60.37 91.33 60.37 89.39C60.37 87.45 61.94 85.88 63.88 85.88C65.82 85.88 67.39 87.45 67.39 89.39Z"
+          d="M67.39 89.3899C67.39 91.3299 65.82 92.8999 63.88 92.8999C61.94 92.8999 60.37 91.3299 60.37 89.3899C60.37 87.4499 61.94 85.8799 63.88 85.8799C65.82 85.8799 67.39 87.4499 67.39 89.3899Z"
           fill="white"
           fill-opacity="0.41"
         />
         <path
-          d="M97.58 89.39C97.58 91.33 96.01 92.9 94.07 92.9C92.13 92.9 90.56 91.33 90.56 89.39C90.56 87.45 92.13 85.88 94.07 85.88C96.01 85.88 97.58 87.45 97.58 89.39Z"
+          d="M97.58 89.3899C97.58 91.3299 96.01 92.8999 94.07 92.8999C92.13 92.8999 90.56 91.3299 90.56 89.3899C90.56 87.4499 92.13 85.8799 94.07 85.8799C96.01 85.8799 97.58 87.4499 97.58 89.3899Z"
           fill="white"
           fill-opacity="0.41"
         />
       </svg>
-      <div className=" align-middle w-[73.75rem] h-[20.4375] absolute z-40 mt-[38rem]">
-        <img
-          src="https://i.postimg.cc/MTdrgxvP/rectangle-2.png"
-          alt="rectangle"
-          className="mix-blend-lighten absolute bg-blend-exclusion bg-[#FF6600] "
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="18"
+        height="55"
+        viewBox="0 0 18 55"
+        fill="none"
+        className="mt-[-33rem] ml-7"
+      >
+        <path
+          d="M2 1L7.65339 6.24823L2 11.5012L7.65339 16.7541L2 22.0023L7.65339 27.2553L2 32.5035L7.65339 37.7612L2 43.0094L7.65339 48.2671L2 53.52"
+          stroke="#F24E3D"
+          stroke-opacity="0.54"
+          stroke-width="2"
+          stroke-miterlimit="10"
         />
-        <h2 className="ml-[8rem] mt-[3.1rem] font-bold leading-7 absolute text-[2.5rem] text-[#fff] ">
-          Course Amount : SGD197 per month*
-        </h2>
-        <p className="text-[#3F3F3F]  mt-[6.31rem] ml-[8rem] absolute text-left text-[1rem] font-bold leading-7 font-[Manrope] capitalize">
-          *materials/deposit/registration fees : SGD 0
-        </p>
-        <p className="text-[#3F3F3F] mt-[8.31rem] absolute ml-[8rem] text-left text-[1rem] font-bold leading-7 font-[Manrope] capitalize">
-          *course fees are a flat monthly fees for 4 lessons. Should there be a
-          5th session, it will be provided complimentary.
-        </p>
-      </div>
+        <path
+          d="M10.2869 1L15.9403 6.24823L10.2869 11.5012L15.9403 16.7541L10.2869 22.0023L15.9403 27.2553L10.2869 32.5035L15.9403 37.7612L10.2869 43.0094L15.9403 48.2671L10.2869 53.52"
+          stroke="#F24E3D"
+          stroke-opacity="0.54"
+          stroke-width="2"
+          stroke-miterlimit="10"
+        />
+      </svg>
     </div>
   );
-};
+}
 
-export default MainFirst;
+export default LastPage;
