@@ -104,7 +104,7 @@ function LastPage() {
         <h2 className="text-white text-[2.5rem] leading-10 mt text-left tracking-wide font-bold w-[31.5625rem] h-[5.0625rem] ">
           What you get as a student of MasterMaths?
         </h2>
-        <ul className="text-[#9BABCB] text-left mt-[4rem] leading-[4rem] ">
+        <ul className="text-[#9BABCB] text-left mt-[4rem] tracking-wider w-[28rem] leading-[4rem] ">
           <li>
             90-minutes of Weekly Mathematics{" "}
             <span className="text-[#FF6600]">Coaching</span>{" "}
@@ -120,8 +120,8 @@ function LastPage() {
             Reviews and Performance{" "}
             <span className="text-[#FF6600]">Feedback</span>
           </li>
-          <li>
-            <span className="text-[#FF6600]">Extra</span> Coaching and Webinars
+          <li className="leading-10 mt-3">
+            <span className="text-[#FF6600] ">Extra</span> Coaching and Webinars
             for Landmark Levels(PSLE & "O" Levels)
           </li>
         </ul>

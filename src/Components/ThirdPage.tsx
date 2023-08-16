@@ -1,63 +1,61 @@
 import React from "react";
+import Primary1 from "./primary/Primary1";
+import Primary2 from "./primary/Primary2";
+import Primary3 from "./primary/Primary3";
 
 function ThirdPage() {
+  const tagLine: string = "[Online or Tampines, MasterMaths Coach]";
   return (
-    <div className="flex-row m-auto items-center w-[90rem] text-center h-[51.813rem]">
-      <div className="absolute flex-1 items-center leading-7 h-[40rem] ml-9 w-[20rem]">
-        <div className="relative ml-8 ">
-          <img src="images/ellipse-3.svg" />
-          <img
-            src="images/frame.svg"
-            className="items-center absolute top-[5rem] ml-[5.5rem]"
-          />
+    <div>
+      <h1 className="w-[18.0625]  h-[1.8125rem] text-center text-[#002060] text-[2.5rem] mt-[-2rem] font-bold leading-10 mb-5 font-[Manrope] ">
+        2023 Schedule
+      </h1>
+      <div className="w-[69.375rem] relative border-collapse h-[51.25rem] border-2 rounded-[0.3125rem] bg-[#fff] border-gray-400 shadow-2xl shadow-[#0000000d] m-auto ">
+        <div className="w-full border h-[3.9375rem] border-collapse border-[#8ea7d980] bg-[#f2f4f7]">
+          <h3 className="text-[#002060] ml-[1.5rem] mt-2 text-left font-bold m-auto text-[1.125rem] leading-10">
+            Classes for Year 2023
+          </h3>
+          <h3 className="text-[#002060]  text-right -mt-10 mr-14 font-bold text-[1.125rem] leading-10">
+            Schedule for Woodlands. Little India, Tampines and Live Online
+            Classes
+          </h3>
         </div>
-        <h3 className="mb-3 text-[1.25rem] font-[Manrope] text-[#F60] font-medium">
-          Little India (Central)
-        </h3>
-        <p className="tracking-normal font-[Manrope]">
-          2 mins walk from Hilton Garden Inn Hotel, 672A Klang Lane #01-97
-          Singapore 211672. 5 mins walk from Little India mrt Exit E, along
-          Serangoon Road. Online learning option is available for all
-          MasterMaths classes.
-        </p>
-      </div>
-      <div className="absolute items-center leading-7 h-[40rem] w-[20rem] ml-[35rem]">
-        <div className="relative ml-8">
-          <img src="images/ellipse-3.svg" />
-          <img
-            src="images/frame.svg"
-            className="items-center absolute top-[5rem] ml-[5.5rem]"
-          />
+        <div className=" ml-[20rem] flex justify-between  flex-wrap mt-[0.02rem] pt-[1.5rem] absolute h-[12rem] w-[49.375rem] border-b-2  border-[#8ea7d980]">
+          <Primary1 />
         </div>
-        <h3 className="mb-3 font-[Manrope] text-[1.25rem] text-[#F60] font-medium">
-          Tampines (East)
-        </h3>
-        <p className="tracking-normal font-[Manrope]">
-          Tampines N2 Shopping Street, 5 mins walk from Tampines East MRT, 201E
-          Tampines St. 23, #01-120 (2nd Storey enter from backgate stairs)
-        </p>
-      </div>
-      <div className="absolute items-center leading-7 h-[40rem] w-[20rem] ml-[70rem]">
-        <div className="relative ml-8">
-          <img src="images/ellipse-3.svg" />
-          <img
-            src="images/frame.svg"
-            className="items-center absolute top-[5rem] ml-[5.5rem]"
-          />
+        <div className=" ml-[20rem] flex justify-between  flex-wrap mt-[12.02rem] pt-[2rem] absolute h-[12rem] w-[49.375rem] border-b-2  border-[#8ea7d980]">
+          <Primary2 />
         </div>
-        <h3 className="mb-3 font-[Manrope] text-[1.25rem] text-[#F60] font-medium ">
-          Woodlands (North)
-        </h3>
-        <p className="tracking-normal font-[Manrope]">
-          791 Woodlands Ave 6 #01-603, S(730791), 5 mins walk from Admiralty MRT
-          All MasterMaths Coaches are NTU/NUS Grads/NIE-Trained/Maths
-          Grad/Experienced Coaches with at least 5 years of Coaching Experience.
-        </p>
-      </div>
-      <div className=" absolute text-center ml-[37rem] border-2 w-[16rem] h-[3.6875rem] rounded-[0.1875rem] mt-[30rem]  border-[#f60] text-[#FFF] bg-[#f60]">
-        <button className="w-full h-full font-[Manrope] text-[1rem]">
-          Secure a Seat
-        </button>
+        <div className=" ml-[20rem] flex justify-between  flex-wrap mt-[23.9rem] absolute h-[12rem] w-[49.375rem] ">
+          <Primary3 />
+        </div>
+        <div className=" ml-[20rem] flex justify-between  flex-wrap mt-[32.1rem] absolute h-[12rem] w-[49.375rem] ">
+          <Primary3 />
+        </div>
+        <div className=" ml-[20rem] flex justify-between  flex-wrap mt-[40.1rem] absolute h-[7.1rem] w-[49.375rem] border-b-2  border-[#8ea7d980] ">
+          <div className="border  border-[#ff660085] rounded-[0.1875rem] w-[14.5625rem] h-[5.875rem] absolute bg-[#ff660012] mt-4 ml-2">
+            <div className="m-auto mt-2 font-[Manrope] h-[4.8125] w-[12.875rem]">
+              <h3 className="text-[#002060] leading-7 text-[1rem] font-semibold ">
+                Saturday 4PM to 5:30PM
+              </h3>
+              <p className="text-[#797979] font-semibold text-[1rem] leading-7">
+                {tagLine}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="   flex-col border-collapse   border-b border-r border-[#8ea7d980] align-middle text-center justify-center h-[47.299rem] w-[20rem]">
+          <div className="h-[12rem] text-center w-full text-[1.125rem] text-[#4C8AFF] font-[Manrope] leading-10  pt-[5rem]  border border-[#8ea7d980]">
+            Primary1
+          </div>
+          <div className="h-[12rem] w-full pt-[5rem]  text-[1.125rem] text-[#4C8AFF] font-[Manrope] leading-10 border border-[#8ea7d980]">
+            Primary2
+          </div>
+          <div className="h-[23.27rem] w-full border pt-[8rem] text-[1.125rem] text-[#4C8AFF] font-[Manrope] leading-10 border-r  border-[#8ea7d980] ">
+            Primary3
+          </div>
+        </div>
       </div>
     </div>
   );

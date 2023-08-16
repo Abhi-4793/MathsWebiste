@@ -1,6 +1,12 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const MainFirst = () => {
+  const navigate = useNavigate();
+  const navigateQuestionPage = () => {
+    navigate("/QuestionPage", { replace: true });
+  };
+
   return (
     <div className="flex  ">
       <div className="w-[67.5625rem] flex-shrink-0 h-[51.813rem] max-h-screen   bg-[#002060] text-white not-italic font-bold text-[25px] leading-normal pl-[165px] pt-[42px] relative">
@@ -20,19 +26,22 @@ const MainFirst = () => {
         <div className="text-[#9BABCB] text-left text-[1.25rem] top-8 left-0 absolute font-[Manrope] mt-[23.48rem] ml-[10.31rem] w-[20.5625rem] font-bold leading-[1.875rem]">
           [Online or In-Class @ Woodlands / Little India / Tampines]
         </div>
-        <button className=" font-[Manrope] absolute mt-[13.56rem]  bg-[#ff660033] rounded-[0.1875rem] w-[17.8125rem] h-[3.6875rem] left-[165px] border-2 border-orange-600  ">
+        <button
+          onClick={navigateQuestionPage}
+          className=" font-[Manrope] absolute mt-[13.56rem] hover:bg-[#7d4927ac]  bg-[#ff660033] rounded-[0.1875rem] w-[17.8125rem] h-[3.6875rem] left-[165px] border-2 border-orange-600  "
+        >
           <p className="text-[#fff] text-[1rem] font-medium leading-7 capitalize m-auto ">
             click here to reserve seat
           </p>
         </button>
       </div>
 
-      <div className=" w-[22.4375rem]  flex-shrink-0 h-[51.813rem] bg-[#0E2D69] max-w-screen max-h-screen z-0">
+      <div className=" w-[27.4rem]  flex-shrink-0 h-[51.813rem] bg-[#0E2D69] max-w-screen max-h-screen z-0">
         <div className="mt-[2.94rem] ml-[-12.5rem] ">
-          <button className="bg-transparent text-white text-[1rem] mr-[1.87rem]">
+          <button className="bg-transparent text-white text-[1rem] mr-[9.87rem] pr-[-2rem]">
             PSLE Courses
           </button>
-          <button className=" flex-shrink-0 bg-transparent text-white w-[6.375rem] h-[2.75rem] border-2 border-white ">
+          <button className="  bg-transparent hover:bg-[#0f285a] ml-[-3rem] text-white w-[6.375rem] h-[2.75rem] border-2 border-white ">
             Login
           </button>
           <img
