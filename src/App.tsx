@@ -8,6 +8,7 @@ import FourthPage from "./Components/FourthPage";
 import QuestionPage from "./Components/QuestionPage";
 import LastPage from "./Components/LastPage";
 import Footer from "./Components/Footer";
+import Contactpage from "./Components/Contactpage";
 
 function App() {
   return (
@@ -28,19 +29,10 @@ function App() {
         />
 
         <Route path="/QuestionPage" element={<QuestionPage />} />
+        <Route path="/ContactPage" element={<Contactpage />} />
       </Routes>
     </div>
   );
 }
 
 export default App;
-{
-  /* <Route path="/MainFirst" element={<MainFirst />} />
-
-          <Route path="/SecondPage" element={<SecondPage />} />
-          <Route path="/ThirdPage" element={<ThirdPage />} />
-          <Route path="/FourthPage" element={<FourthPage />} />
-          <Route path="/LastPage" element={<LastPage />} />
-          <Route path="/Footer" element={<Footer />} />
-        */
-}

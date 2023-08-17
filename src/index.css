@@ -1,9 +1,13 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
+@layer base {
+  html {
+    @apply font-[Manrope];
+  }
+}
 @import "tailwindcss/utilities";
 
-
-body{
-	margin: 0;
-	padding:0;
+body {
+  margin: 0;
+  padding: 0;
 }

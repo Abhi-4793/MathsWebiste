@@ -5,9 +5,10 @@ function FourthPage() {
     <div className="flex-row m-auto items-center w-[90rem] mt-[5rem] text-center h-[51.813rem]">
       <div className="absolute flex-1 items-center leading-7 h-[40rem] ml-9 w-[20rem]">
         <div className="relative ml-8 ">
-          <img src="images/ellipse-3.svg" />
+          <img src="images/ellipse-3.svg" alt="ellipse" />
           <img
             src="images/frame.svg"
+            alt="frame"
             className="items-center absolute top-[5rem] ml-[5.5rem]"
           />
         </div>
@@ -22,10 +23,11 @@ function FourthPage() {
         </p>
       </div>
       <div className="absolute items-center leading-7 h-[40rem] w-[20rem] ml-[35rem]">
-        <div className="relative ml-8">
-          <img src="images/ellipse-3.svg" />
+        <div className="relative  ml-8">
+          <img alt="ellipse" className="" src="images/ellipse-3.svg" />
           <img
             src="images/frame.svg"
+            alt="frame"
             className="items-center absolute top-[5rem] ml-[5.5rem]"
           />
         </div>
@@ -39,9 +41,10 @@ function FourthPage() {
       </div>
       <div className="absolute items-center leading-7 h-[40rem] w-[20rem] ml-[70rem]">
         <div className="relative ml-8">
-          <img src="images/ellipse-3.svg" />
+          <img src="images/ellipse-3.svg" alt="ellipse" />
           <img
             src="images/frame.svg"
+            alt="frame"
             className="items-center absolute top-[5rem] ml-[5.5rem]"
           />
         </div>

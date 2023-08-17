@@ -10,6 +10,22 @@ const SecondPage = () => {
           className="w-[29.6875rem] h-[33.5675rem]"
         />
       </div>
+      <svg
+        className="absolute mt-[25rem] ml-[2rem]"
+        xmlns="http://www.w3.org/2000/svg"
+        width="34"
+        height="34"
+        viewBox="0 0 34 34"
+        fill="none"
+      >
+        <path
+          d="M15.9572 2.13331C24.2189 1.50729 31.4216 7.69532 32.0476 15.9571C32.6736 24.2189 26.4856 31.4215 18.2239 32.0476C9.96209 32.6736 2.7594 26.4856 2.13337 18.2238"
+          stroke="#FF6600"
+          stroke-opacity="0.46"
+          stroke-width="2.5"
+          stroke-miterlimit="10"
+        />
+      </svg>
       <div className="w-[21.6875rem] h-[33.5675rem] pl-20">
         <h2 className="font-[Manrope] text-[#002060] mt-[10.5rem] ml-[7rem] l text-[2.2rem] text-left font-bold w-[30.125rem] tracking-wider h-[5.0625rem ">
           Here's what you get as a MasterMaths Student :
