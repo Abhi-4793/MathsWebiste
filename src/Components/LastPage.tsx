@@ -129,6 +129,7 @@ function LastPage() {
 
       <div className="w-[50rem] h-[35rem] absolute">
         <img
+          alt="img"
           className="w-[29.6875rem] h-[31.875rem] mt-[-22rem] ml-[55rem]"
           src="images/rectangle-4.png"
         />
