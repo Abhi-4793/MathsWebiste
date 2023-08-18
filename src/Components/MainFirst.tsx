@@ -46,7 +46,7 @@ const MainFirst = () => {
           </button>
           <img
             className="bg-no-repeat w-[45.9375rem] h-[27.75rem] rounded-[0.1875rem] bg-gray-400 mt-[6rem] mr-1 z-"
-            src="https://i.postimg.cc/4d2VtzbB/rectangle-6.png"
+            src="images/rectangle-6.png"
             alt="Mathsclass"
           />
         </div>
@@ -247,7 +247,7 @@ const MainFirst = () => {
       </div>
       <div className=" align-middle w-[73.75rem] h-[20.4375] absolute z-40 mt-[44rem]">
         <img
-          src="https://i.postimg.cc/MTdrgxvP/rectangle-2.png"
+          src="images/rectangle-2.png"
           alt="rectangle"
           className="mix-blend-lighten absolute bg-blend-exclusion bg-[#FF6600] "
         />

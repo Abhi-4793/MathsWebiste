@@ -29,7 +29,7 @@ function QuestionPage() {
 
   function DisplayDetail(): JSX.Element {
     const { loading, error, data } = useQuery(FORM_QUESTION);
-    // const [width, setWidth] = useState(["20", "40", "60", "80", "100"]);
+
     const [questionindex, setQuestionIndex] = useState(0);
     const navigate = useNavigate();
     function handleclick() {
@@ -43,14 +43,14 @@ function QuestionPage() {
     if (data) console.log(data);
     let orders = ["20", "40", "60", "80", "100"];
     console.log(data.getFormQuestions[3].options[0].option);
-    // useEffect(() => {});
+
     return (
       <>
-        <div className="w-[69.375rem] m-auto mt-[2rem] h-[28.5625rem] rounded-[0.3125rem] border-[1px] border-[#8ea7d980] bg-[#fff] shadow-md  shadow-blue-900/75  ">
-          <div className="w-[69.375rem] h-[6.5rem] border-2 border-[#8ea7d980]  ">
-            <div className="w-full mt-[2.4rem] rounded-[12.5rem] bg-[#BFD3F4] dark:bg-neutral-400">
+        <div className="w-[69.375rem]  m-auto mt-[2rem] h-[28.5625rem] rounded-[0.3125rem] border-[1px] border-[#8ea7d980] bg-[#fff] shadow-md  shadow-blue-900/75  ">
+          <div className="w-[69.375rem]  h-[6.5rem] border-2 border-[#8ea7d980]  ">
+            <div className="w-[62rem] ml-[3.5rem]  mt-[2.4rem] rounded-[12.5rem] bg-[#BFD3F4] dark:bg-neutral-400">
               <div
-                className="bg-[#f60] p-0.5 text-center text-xs font-medium rounded-[12.5rem] leading-none text-primary-100"
+                className="bg-[#f60] text-right p-0.5 pr-[1rem] text-white text-md font-semibold rounded-[12.5rem] leading-none text-primary-100"
                 style={{ width: `${orders[questionindex]}%` }}
               >
                 {orders[questionindex]} %
@@ -63,17 +63,17 @@ function QuestionPage() {
           >
             {data.getFormQuestions[questionindex].question}
           </div>
-          <div className="justify-between  flex flex-row ml-[-10rem] w-[40rem] h-[5rem]">
+          <div className="justify-around grid grid-cols-4 grid-cols gap-[-5rem] m-auto  relative          w-full max-w-[70rem] max-h-[23rem] h-[22rem]  ">
             {data.getFormQuestions[questionindex].options.map(
               ({ options }: form) => {
                 return (
                   <div
-                    className="w-[14.5625rem] text-center  ml-[18rem]  mt-[8rem]   h-[4.4375rem] rounded-[0.1875rem] border-[2px] border-[#73A3CD] bg-[#ffffff12] flex-shrink-0"
+                    className="w-[14.5625rem]  mx-5  text-center   mt-[3rem]   h-[5.4375rem] rounded-[0.1875rem] border-[2px] border-[#73A3CD] bg-[#ffffff12] flex-shrink-0"
                     key={options?._id}
                   >
                     <button
                       onClick={handleclick}
-                      className="m-auto w-full h-full text-black font-[manrope] text-[1.125rem] font-medium "
+                      className="m-auto w-full  h-full text-black font-[manrope] text-[1.125rem] font-medium "
                     >
                       {options?.option}
                     </button>
@@ -82,6 +82,9 @@ function QuestionPage() {
               }
             )}
           </div>
+          <h3 className="text-[#797979] text-[1rem] font-[Manrope] leading-8 text bg-center font-light">
+            step{questionindex + 1}/5
+          </h3>
         </div>
       </>
     );
